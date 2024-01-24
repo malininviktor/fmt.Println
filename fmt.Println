@@ -1,0 +1,5 @@
+func main() {
+ repo := NewGitRepository()
+ for {
+  fmt.Println("\nCommands:\n1. commit <message>\n2. branch <new_branch>\n3. checkout <branch>\n4. print\n5. exit")
+  fmt.Print("Enter command: ")
